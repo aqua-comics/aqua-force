@@ -1,2 +1,2 @@
 Strona komiksu jest tutaj:
-https://piw-piw.github.io/aqua-force/
+https://aqua-comics.github.io/aqua-force/
