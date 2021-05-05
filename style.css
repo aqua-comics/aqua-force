@@ -1,0 +1,38 @@
+html {
+/*background-color: #16c5a2;*/
+background-image: url(water_down.gif), url(water_top.gif);
+background-position: left bottom, left top;
+background-repeat: repeat-x, repeat;
+padding: 15px;
+}
+
+button{
+font-family: Freestyle Script;
+border-radius: 20px;
+}
+
+.numer {
+background-color: #b33c00;
+color: #8a8a5c;
+height: 60px;
+width: 140px;
+font-size: 40px;
+}
+
+::-webkit-scrollbar {
+width: 20px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: insert 0 0 200px grey;
+border-radius: 200px;
+}
+
+::-webkit-scrollbar-thumb {
+background: dark_grey;
+border-radius: 200px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #376972;
+}

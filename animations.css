@@ -1,0 +1,71 @@
+#banka {
+  width: 30px;
+  height: 30px;
+  background: green;
+  position: relative;
+  animation: wgora 10s infinite;
+}
+@keyframes wgora {
+  0%   {top: 50px; left: 100px;}
+  100%   {top: -1000px; left: 100px;}
+}
+
+button {
+  position: relative;
+}
+.t1 {
+  animation: t1 7s infinite;
+}
+.t2 {
+  animation: t2 6s infinite;
+}
+.t3 {
+  animation: t3 5s infinite;
+}
+.t4 {
+  animation: t4 8s infinite;
+}
+.y1 {
+  animation: t1 4s infinite;
+}
+.y2 {
+  animation: t2 8s infinite;
+}
+.y3 {
+  animation: t3 7s infinite;
+}
+.y4 {
+  animation: t4 5s infinite;
+}
+@keyframes t1 {
+  0%   {top: 0px; left: 0px;}
+  20%   {top: 3px; left: 3px;}
+  40%   {top: 3px; left: -3px;}
+  60%   {top: -3px; left: 3px;}
+  80%   {top: 0px; left: -3px;}
+  100%   {top: 0px; left: 0px;}
+}
+@keyframes t2 {
+  0%   {top: 0px; left: 0px;}
+  20%   {top: 0px; left: -3px;}
+  40%   {top: 3px; left: -3px;}
+  60%   {top: -3px; left: 3px;}
+  80%   {top: 3px; left: 3px;}
+  100%   {top: 0px; left: 0px;}
+}
+@keyframes t3 {
+  0%   {top: 0px; left: 0px;}
+  20%   {top: -3px; left: 3px;}
+  40%   {top: 3px; left: -3px;}
+  60%   {top: 0px; left: -3px;}
+  80%   {top: 3px; left: 3px;}
+  100%   {top: 0px; left: 0px;}
+}
+@keyframes t4 {
+  0%   {top: 0px; left: 0px;}
+  20%   {top: 0px; left: -3px;}
+  40%   {top: 3px; left: 3px;}
+  60%   {top: -3px; left: 3px;}
+  80%   {top: 3px; left: -3px;}
+  100%   {top: 0px; left: 0px;}
+}
